@@ -10,7 +10,7 @@ import Educator from './pages/educator/Educator'
 import Dashboard from './pages/educator/Dashboard'
 import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
-import StudentsEnrolled from './pages/Educator/StudentsEnrolled'
+import StudentsEnrolled from './pages/educator/StudentsEnrolled'
 import Navbar from './components/students/Navbar'
 
 const App = () => {
