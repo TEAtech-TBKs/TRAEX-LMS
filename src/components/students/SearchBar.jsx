@@ -20,7 +20,7 @@ const onSearchHandler = (e) =>{
             <img src={assets.search_icon} alt="searchIcon" className='md:w-auto w-10 px-3' />
             <input onChange={(e) => setInput(e.target.value)} value={input}
              type="text" placeholder='search for courses' className='w-full h-full outline-none text-gray-500/80' />
-            <button type='submit' className='bg-primary rounded text-white md:px-10 px-7 md:py-3 py2 mx-1'>Search</button>
+            <button type='submit' className='bg-primary rounded text-white px-6 py-2 md:px-10 px-7 md:py-3 py2 mx-1'>Search</button>
         </form>
     </div>
   )
