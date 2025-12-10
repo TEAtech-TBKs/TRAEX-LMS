@@ -7,6 +7,12 @@
 *{
   font-family: "Outfit", sans-serif;
 }
+.hero-base-text{
+  font-family: "Outfit", sans-serif;
+}
+.hero-base-text-big{
+  font-family: "Raleway", sans-serif;
+}
 @layer base{
   html{
     scroll-behavior: smooth;

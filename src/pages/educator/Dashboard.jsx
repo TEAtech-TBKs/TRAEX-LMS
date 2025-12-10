@@ -2,8 +2,9 @@ import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className='items-center'>
         <h1>Educator Dashboard Page</h1>
+        
     </div>
   )
 }

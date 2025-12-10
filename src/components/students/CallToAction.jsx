@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets'
 
 const CallToAction = () => {
   return (
-    <div className='flex flex-col bg-accent w-full rounded items-center gap-4 pt-10 pb-24 py-20 px-10 md:px-5'>
+    <div className='sticky flex flex-col bg-accent w-full rounded items-center gap-4 pt-10 pb-24 py-20 px-10 md:px-5'>
   <h1 className='text-4xl md:text-4xl text-text font-semibold text-left'>
     Master Web Development at Your Own Pace
   </h1>

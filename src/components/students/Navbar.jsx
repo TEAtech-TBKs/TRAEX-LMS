@@ -13,7 +13,7 @@ const Navbar = () => {
   const { user } = useUser();
 
   return (
-    <div className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-20 border-b border-gray-500 py-4 ${isCourseListPage ? 'bg-white' : 'bg-secondary'}`}>
+    <div className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-20 border-b border-gray-500/50 py-4 ${isCourseListPage ? 'bg-primary/20 w-full border-none ' : 'bg-secondary/70'}`}>
       <img onClick={()=>navigate('/')} src={assets.logo} alt="logo" className='w-30 lg:w-50 cursor-pointer' />
       <div className='hidden md:flex item-center gap-5 text-background'>
         <div className='flex items-center gap-5'>
@@ -31,7 +31,7 @@ const Navbar = () => {
       userButtonTrigger: "rounded-full border border-gray-300" 
     }
   }}/> :
-            <button onClick={()=>openSignIn()} className='bg-blue-600 text-white px-5 py-2 rounded-full' >Create Account</button>}
+            <button onClick={()=>openSignIn()} className='bg-blue-700 text-gray-50 px-5 py-2 rounded' >Login / signup</button>}
       </div>
 
         {/* For phone screens */}
