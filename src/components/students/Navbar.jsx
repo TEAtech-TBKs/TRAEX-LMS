@@ -104,7 +104,7 @@ const Navbar = () => {
           {user && (
             <>
               <button
-                className="block w-full text-left bg-red-100 text-primary rounded py-2 px-3 text-sm mb-2"
+                className="block w-full text-left bg-red-100 text-primary rounded py-2 px-3 text-1xl mb-2"
                 onClick={() => {
                   navigate('/educator');
                   setOpenMenu(false);
@@ -114,7 +114,7 @@ const Navbar = () => {
               </button>
 
               <Link
-                className="block w-full bg-primary/70 text-white rounded py-2 px-3 text-sm"
+                className="block w-full bg-primary/70 text-white font-semibold rounded py-2 px-3 text-1xl"
                 to="/my-enrollment"
                 onClick={() => setOpenMenu(false)}
               >
