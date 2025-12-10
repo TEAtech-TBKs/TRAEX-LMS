@@ -114,7 +114,7 @@ const Navbar = () => {
               </button>
 
               <Link
-                className="block w-full bg-primary/70 text-white font-semibold rounded py-2 px-3 text-1xl"
+                className="block w-full bg-primary/60 text-white font-semibold rounded py-2 px-3 text-1xl"
                 to="/my-enrollment"
                 onClick={() => setOpenMenu(false)}
               >
