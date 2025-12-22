@@ -42,10 +42,13 @@ import profile_img from './profile_img.png'
 import profile_img2 from './profile_img2.png'
 import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
-import intro_js_thumbnail from "./Introduction to javascript.png"
-import Python_thumbnail from "./Python-Full-Course-Thumbnail.png"
-import React_js from "./Reactjs.png"
-import cybersecurity_thumbnail from "./Cyber-security.png"
+import intro_js_thumbnail from "./Thumbnails/JavaScriptCourse.png"
+import Python_thumbnail from "./Thumbnails/Python-Full-Course.png"
+import React_js from "./Thumbnails/Reactjs.png"
+import cybersecurity_thumbnail from "./Thumbnails/Cyber-security.png"
+import bootstrap_thumbnail from "./Thumbnails/BootstrapCourse.png"
+import Html_css_thumbnail from "./Thumbnails/Html&Css.png"
+import Tailwind_thumbnail from "./Thumbnails/TailwindCourse.png"
 
 
 
@@ -233,7 +236,7 @@ export const dummyCourses = [
                         "lectureId": "lecture1",
                         "lectureTitle": "What is JavaScript?",
                         "lectureDuration": 16,
-                        "lectureUrl": "https://youtu.be/CBWnBi-awSA",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -241,7 +244,7 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Setting Up Your Environment",
                         "lectureDuration": 19,
-                        "lectureUrl": "https://youtu.be/4l87c2aeB4I",
+                        "lectureUrl": "https://youtu.be/sample", //
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -256,7 +259,7 @@ export const dummyCourses = [
                         "lectureId": "lecture3",
                         "lectureTitle": "Understanding Variables",
                         "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "lectureUrl": "https://youtu.be/samples",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -264,7 +267,7 @@ export const dummyCourses = [
                         "lectureId": "lecture4",
                         "lectureTitle": "Data Types in JavaScript",
                         "lectureDuration": 10,
-                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -289,6 +292,7 @@ export const dummyCourses = [
         "__v": 4,
         "courseThumbnail": intro_js_thumbnail
     },
+    //advanced-python-programming
     {
         "_id": "675ac1512100b91a6d9b8b24",
         "courseTitle": "Advanced Python Programming",
@@ -306,7 +310,7 @@ export const dummyCourses = [
                         "lectureId": " lecture1",
                         "lectureTitle": "Lists and Tuples",
                         "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -314,7 +318,7 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Dictionaries and Sets",
                         "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -329,7 +333,7 @@ export const dummyCourses = [
                         "lectureId": "lecture3",
                         "lectureTitle": "Classes and Objects",
                         "lectureDuration": 900,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -337,7 +341,7 @@ export const dummyCourses = [
                         "lectureId": "lecture4",
                         "lectureTitle": "Inheritance and Polymorphism",
                         "lectureDuration": 950,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -361,6 +365,7 @@ export const dummyCourses = [
         "__v": 3,
         "courseThumbnail": Python_thumbnail
     },
+    //introduction-to-cybersecurity
     {
         "_id": "605c72efb3f1c2b1f8e4e1ae",
         "courseTitle": "Cybersecurity Basics",
@@ -378,7 +383,7 @@ export const dummyCourses = [
                         "lectureId": "lecture1",
                         "lectureTitle": "What is Cybersecurity?",
                         "lectureDuration": 10,
-                        "lectureUrl": "https://youtu.be/samplelink5",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -386,7 +391,7 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Types of Cyber Threats",
                         "lectureDuration": 18,
-                        "lectureUrl": "https://youtu.be/samplelink6",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -401,7 +406,7 @@ export const dummyCourses = [
                         "lectureId": "lecture3",
                         "lectureTitle": "Password Management",
                         "lectureDuration": 15,
-                        "lectureUrl": "https://youtu.be/samplelink7",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -409,7 +414,7 @@ export const dummyCourses = [
                         "lectureId": "lecture4",
                         "lectureTitle": "Network Security Essentials",
                         "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/samplelink8",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -427,6 +432,7 @@ export const dummyCourses = [
         "__v": 2,
         "courseThumbnail": cybersecurity_thumbnail
     },
+    //web-development-bootcamp
     {
         "_id": "605c72efb3f1c2b1f8e4e1a7",
         "courseTitle": "Web Development Bootcamp",
@@ -444,7 +450,7 @@ export const dummyCourses = [
                         "lectureId": "lecture1",
                         "lectureTitle": "Introduction to HTML",
                         "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -452,12 +458,13 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Styling with CSS",
                         "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
                 ]
             },
+            //javascript-fundamentals
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
@@ -467,7 +474,7 @@ export const dummyCourses = [
                         "lectureId": "lecture3",
                         "lectureTitle": "JavaScript Basics",
                         "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -475,7 +482,7 @@ export const dummyCourses = [
                         "lectureId": "lecture4",
                         "lectureTitle": "DOM Manipulation",
                         "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
+                        "lectureUrl": "https://youtu.be/sample",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -493,272 +500,275 @@ export const dummyCourses = [
         "__v": 2,
         "courseThumbnail": React_js
     },
-    {
-        "_id": "605c72efb3f1c2b1f8e4e1ac",
-        "courseTitle": "Cloud Computing Essentials",
- "courseDescription": "<h2>Become a Cloud Computing Pro</h2><p>Step into the world of cloud computing and gain hands-on experience with leading platforms like AWS, Azure, and Google Cloud. This course is perfect for IT professionals and developers aiming to excel in cloud technologies.</p><p>By the end, you'll understand cloud services, deployment models, and best practices for leveraging cloud resources effectively in real-world scenarios.</p><ul><li>Grasp cloud architecture fundamentals</li><li>Work confidently with AWS, Azure, and GCP</li><li>Explore serverless computing and cloud storage solutions</li></ul>",
-        "coursePrice": 69.99,
-        "isPublished": true,
-        "discount": 20,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Cloud Fundamentals",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "What is Cloud Computing?",
-                        "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Cloud Service Models",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Exploring Cloud Platforms",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "AWS Basics",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Introduction to Google Cloud",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
-        "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2024-12-31T05:32:55.357Z",
-        "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/0yboGn8errU/maxresdefault.jpg"
-    },
-    {
-        "_id": "605c72efb3f1c2b1f8e4e1ad",
-        "courseTitle": "Data Science with Python",
-        "courseDescription": "<h2>Start Your Data Science Journey</h2><p>Data Science is one of the most in-demand fields in the world. This course teaches you the essentials of data analysis, visualization, and machine learning using Python. Learn libraries like Pandas, NumPy, Matplotlib, and Scikit-learn.</p><p>By the end of this course, you will be equipped to work on real-world data projects and gain insights from data.</p><ul><li>Data cleaning and preprocessing</li><li>Exploratory Data Analysis (EDA)</li><li>Build predictive models</li></ul>",
-        "coursePrice": 89.99,
-        "isPublished": true,
-        "discount": 20,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Python for Data Science",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "Python Basics",
-                        "lectureDuration": 30,
-                        "lectureUrl": "https://youtu.be/samplelink1",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Working with NumPy",
-                        "lectureDuration": 25,
-                        "lectureUrl": "https://youtu.be/samplelink2",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Data Visualization",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Introduction to Matplotlib",
-                        "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/samplelink3",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Advanced Visualizations with Seaborn",
-                        "lectureDuration": 25,
-                        "lectureUrl": "https://youtu.be/samplelink4",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
-        "courseRatings": [
-            {
-                "userId": "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
-                "rating": 5,
-                "_id": "6773acf160cb0ab974342248"
-            }
-        ],
-        "createdAt": "2024-12-27T10:00:00.000Z",
-        "updatedAt": "2024-12-31T09:57:48.992Z",
-        "__v": 3,
-        "courseThumbnail": "https://img.youtube.com/vi/E4znbZgUWzA/maxresdefault.jpg"
-    },
-    {
-        "_id": "605c72efb3f1c2b1f8e4e1aa",
-        "courseTitle": "Data Science and Machine Learning",
-        "courseDescription": "<h2>Unlock the Power of Data</h2><p>This course provides a comprehensive introduction to data science and machine learning. You will learn how to analyze data, build predictive models, and apply machine learning algorithms to real-world problems.</p><p>By the end of this course, you will have a solid understanding of data manipulation, visualization, and machine learning techniques, enabling you to make data-driven decisions.</p><ul><li>Understand data analysis and visualization</li><li>Learn machine learning algorithms and their applications</li><li>Work with popular data science libraries like Pandas and Scikit-Learn</li></ul>",
-        "coursePrice": 89.99,
-        "isPublished": true,
-        "discount": 30,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Introduction to Data Science",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "What is Data Science?",
-                        "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Data Collection and Cleaning",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Machine Learning Basics",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Supervised vs Unsupervised Learning",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Building Your First Model",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
-        "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2025-01-02T06:53:59.753Z",
-        "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/631lFJdQvoo/maxresdefault.jpg"
-    },
-    {
-        "_id": "605c72efb3f1c2b1f8e4e1ab",
-        "courseTitle": "Introduction to Cybersecurity",
-        "courseDescription": "<h2>Protect the Digital World</h2><p>This course covers the essentials of cybersecurity, including understanding threats, vulnerabilities, and how to secure systems against cyber-attacks. Ideal for beginners, this course will prepare you for a career in cybersecurity.</p><p>By the end of this course, you will be able to identify and mitigate risks, implement security best practices, and understand the fundamentals of encryption and network security.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
-        "coursePrice": 59.99,
-        "isPublished": true,
-        "discount": 15,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Cybersecurity Basics",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "Introduction to Cybersecurity",
-                        "lectureDuration": 700,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Understanding Cyber Threats",
-                        "lectureDuration": 750,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Network Security Fundamentals",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Securing Networks",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Firewalls and VPNs",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
-        "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
-        "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2025-01-02T06:56:13.208Z",
-        "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"
-    }
+    //bootstrap-essentials
+   {
+    "_id": "605c72efb3f1c2b1f8e4e1ac",
+    "courseTitle": "Bootstrap Essentials",
+    "courseDescription": "<h2>Design Fast, Responsive Websites with Bootstrap</h2><p>Bootstrap is one of the most widely used front-end frameworks for building modern, mobile-first websites. This course teaches you how to quickly create responsive layouts and professional user interfaces using Bootstrap.</p><p>By the end of this course, you’ll confidently apply Bootstrap’s grid system, components, and utility classes to build clean, consistent, and fully responsive web pages.</p><ul><li>Understand Bootstrap’s grid and layout principles</li><li>Build responsive interfaces using prebuilt components</li><li>Customize designs with Bootstrap utilities and classes</li></ul>",
+    "coursePrice": 69.99,
+    "isPublished": true,
+    "discount": 20,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "Bootstrap Fundamentals",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Introduction to Bootstrap",
+                    "lectureDuration": 600,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Working with Bootstrap Components",
+                    "lectureDuration": 720,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "Layouts and Responsiveness",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Bootstrap Grid System Explained",
+                    "lectureDuration": 800,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture4",
+                    "lectureTitle": "Responsive Design with Bootstrap Utilities",
+                    "lectureDuration": 850,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b24",
+    "enrolledStudents": [
+        "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+    ],
+    "courseRatings": [],
+    "createdAt": "2024-12-17T08:16:53.622Z",
+    "updatedAt": "2024-12-31T05:32:55.357Z",
+    "__v": 1,
+    "courseThumbnail": bootstrap_thumbnail
+},
+
+    //data-science-with-python
+{
+    "_id": "605c72efb3f1c2b1f8e4e1ad",
+    "courseTitle": "HTML & CSS Fundamentals",
+    "courseDescription": "<h2>Build the Foundation of the Web</h2><p>HTML and CSS are the core building blocks of every website. This course teaches you how to structure web pages with HTML and style them beautifully using CSS to create modern, responsive layouts.</p><p>By the end of this course, you’ll be able to build real-world web pages from scratch and understand how professional websites are designed and structured.</p><ul><li>Create well-structured HTML pages</li><li>Style layouts with modern CSS</li><li>Build responsive and visually appealing websites</li></ul>",
+    "coursePrice": 89.99,
+    "isPublished": true,
+    "discount": 20,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "HTML Fundamentals",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Introduction to HTML",
+                    "lectureDuration": 30,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Working with HTML Elements",
+                    "lectureDuration": 25,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "CSS Styling & Layouts",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Introduction to CSS",
+                    "lectureDuration": 20,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture4",
+                    "lectureTitle": "Layouts, Flexbox, and Responsive Design",
+                    "lectureDuration": 25,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b24",
+    "enrolledStudents": [
+        "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+        "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
+        "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+    ],
+    "courseRatings": [
+        {
+            "userId": "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+            "rating": 5,
+            "_id": "6773acf160cb0ab974342248"
+        }
+    ],
+    "createdAt": "2024-12-27T10:00:00.000Z",
+    "updatedAt": "2024-12-31T09:57:48.992Z",
+    "__v": 3,
+    "courseThumbnail": Html_css_thumbnail
+},
+//tailwind-css-mastery
+{
+    "_id": "605c72efb3f1c2b1f8e4e1aa",
+    "courseTitle": "Tailwind CSS Mastery",
+    "courseDescription": "<h2>Build Modern UIs with Tailwind CSS</h2><p>Tailwind CSS is a utility-first CSS framework that lets you design modern, responsive interfaces faster and with complete control. This course teaches you how to build clean, scalable, and highly customizable user interfaces using Tailwind CSS.</p><p>By the end of this course, you’ll confidently design responsive layouts, reusable components, and production-ready interfaces using Tailwind’s utility classes.</p><ul><li>Understand Tailwind’s utility-first approach</li><li>Build responsive layouts and components</li><li>Customize themes, spacing, and design systems</li></ul>",
+    "coursePrice": 89.99,
+    "isPublished": true,
+    "discount": 30,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "Introduction to Tailwind CSS",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "What is Tailwind CSS?",
+                    "lectureDuration": 600,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Setting Up Tailwind and Utility Basics",
+                    "lectureDuration": 720,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "Layouts and Responsive Design",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Responsive Design with Tailwind",
+                    "lectureDuration": 800,
+                    "lectureUrl": "https://youtu.be/sample",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture4",
+                    "lectureTitle": "Building Reusable UI Components",
+                    "lectureDuration": 850,
+                    "lectureUrl": "https://youtu.be/sample",                   "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b24",
+    "enrolledStudents": [
+        "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+    ],
+    "courseRatings": [],
+    "createdAt": "2024-12-17T08:16:53.622Z",
+    "updatedAt": "2025-01-02T06:53:59.753Z",
+    "__v": 1,
+    "courseThumbnail": Tailwind_thumbnail
+},
+{
+    "_id": "605c72efb3f1c2b1f8e4e1ab",
+    "courseTitle": "React JS Fundamentals",
+    "courseDescription": "<h2>Build Dynamic Web Applications with React</h2><p>React is a powerful JavaScript library for building interactive and responsive user interfaces. This course introduces you to React’s core concepts, including components, state, and props, to help you create modern web applications.</p><p>By the end of this course, you’ll be able to build reusable components, manage application state effectively, and understand how to structure a React project for real-world applications.</p><ul><li>Understand React components and JSX</li><li>Manage state and props efficiently</li><li>Build interactive, dynamic web applications</li></ul>",
+    "coursePrice": 59.99,
+    "isPublished": true,
+    "discount": 15,
+    "courseContent": [
+        {
+            "chapterId": "chapter1",
+            "chapterOrder": 1,
+            "chapterTitle": "React Basics",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture1",
+                    "lectureTitle": "Introduction to React",
+                    "lectureDuration": 700,
+                    "lectureUrl": "https://youtu.be/samplee",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture2",
+                    "lectureTitle": "Understanding JSX and Components",
+                    "lectureDuration": 750,
+                    "lectureUrl": "https://youtu.be/samplee",
+                    "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        },
+        {
+            "chapterId": "chapter2",
+            "chapterOrder": 2,
+            "chapterTitle": "State Management & Props",
+            "chapterContent": [
+                {
+                    "lectureId": "lecture3",
+                    "lectureTitle": "Managing State in React",
+                    "lectureDuration": 800,
+                    "lectureUrl": "https://youtu.be/samplee",
+                    "isPreviewFree": true,
+                    "lectureOrder": 1
+                },
+                {
+                    "lectureId": "lecture4",
+                    "lectureTitle": "Passing Data with Props",
+                    "lectureDuration": 850,
+                    "lectureUrl": "https://youtu.be/sample",                 "isPreviewFree": false,
+                    "lectureOrder": 2
+                }
+            ]
+        }
+    ],
+    "educator": "675ac1512100b91a6d9b8b24",
+    "enrolledStudents": [
+        "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+    ],
+    "courseRatings": [],
+    "createdAt": "2024-12-17T08:16:53.622Z",
+    "updatedAt": "2025-01-02T06:56:13.208Z",
+    "__v": 1,
+    "courseThumbnail": React_js
+}
+
 ]
