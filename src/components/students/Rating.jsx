@@ -31,7 +31,5 @@ useEffect(()=>{
             )
           })}
     </div>
-  )
-}
-
+  )}
 export default Rating
